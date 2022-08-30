@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01088AA3-D80
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proyecto1", "Proyecto1", "{F4632BCA-685B-4A1E-BFC5-6A557DDBEAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaVaxi", "LibreriaVaxi\LibreriaVaxi.csproj", "{DC5B63A2-B379-43C7-A234-5F0D7D160499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaVaxi", "LibreriaVaxi\LibreriaVaxi.csproj", "{DC5B63A2-B379-43C7-A234-5F0D7D160499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaVaxiMSTests", "LibreriaVaxiMSTests\LibreriaVaxiMSTests.csproj", "{2AB9CB81-2B89-4A7E-B1DB-B1118444F640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaVaxiMSTests", "LibreriaVaxiMSTests\LibreriaVaxiMSTests.csproj", "{2AB9CB81-2B89-4A7E-B1DB-B1118444F640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaVaxiNUnitTests", "LibreriaVaxiNUnitTests\LibreriaVaxiNUnitTests.csproj", "{778DB14D-7344-442E-B2FE-07B61F0CA693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaVaxiNUnitTests", "LibreriaVaxiNUnitTests\LibreriaVaxiNUnitTests.csproj", "{778DB14D-7344-442E-B2FE-07B61F0CA693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaVaxiXUnit", "LibreriaVaxiXUnit\LibreriaVaxiXUnit.csproj", "{89A465A3-463A-441A-A247-B9F26486C010}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{778DB14D-7344-442E-B2FE-07B61F0CA693}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{778DB14D-7344-442E-B2FE-07B61F0CA693}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{778DB14D-7344-442E-B2FE-07B61F0CA693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A465A3-463A-441A-A247-B9F26486C010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A465A3-463A-441A-A247-B9F26486C010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A465A3-463A-441A-A247-B9F26486C010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A465A3-463A-441A-A247-B9F26486C010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{DC5B63A2-B379-43C7-A234-5F0D7D160499} = {F4632BCA-685B-4A1E-BFC5-6A557DDBEAEC}
 		{2AB9CB81-2B89-4A7E-B1DB-B1118444F640} = {F4632BCA-685B-4A1E-BFC5-6A557DDBEAEC}
 		{778DB14D-7344-442E-B2FE-07B61F0CA693} = {F4632BCA-685B-4A1E-BFC5-6A557DDBEAEC}
+		{89A465A3-463A-441A-A247-B9F26486C010} = {F4632BCA-685B-4A1E-BFC5-6A557DDBEAEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4ADEF08-A8A6-459D-8864-82C9C07D1B13}
